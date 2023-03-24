@@ -1,0 +1,88 @@
+body {
+    background-color: rgb(0, 0, 0);
+}
+.body{
+    display: flex left;
+    color: white;
+    padding-left: 10px;
+}
+#tittle{
+    font-size: 70px;
+    /* position: absolute; */
+    /* margin-top: 10%; */
+    /* margin-left: 55px; */
+    line-height:100pt;
+    text-align: center;
+    color: white;
+}
+.score{
+    margin-top: 0%;
+    margin-left: 30px;
+    /* height: 200px; */
+    color: white;
+    display: flex left;
+    position: absolute;
+    left: 75%;
+    top: 30%;
+   
+    /* line-height:medium; */
+}
+#xi , #oi{
+    color: white;
+    background-color:black;
+    border: none;
+    /* background-color: aqua; */
+    margin-left: 5px;
+    font-size: 30px;
+    width: 100px;
+}
+p{
+    color: white;
+}
+
+
+table{
+    margin-top: 20px;
+    /* background-color: rgb(114, 210, 236); */
+    background-color: rgb(143, 95, 232);
+    color: white;
+    border-radius: 50px;
+    border:none;
+}
+td{ 
+    padding: 20px;
+    /* background-color: black; */
+    width: 150px;
+    height: 150px;
+    border: 10px solid rgba(128,128,128,1.9);
+    border-style:groove;
+    border-top: 0px;
+    border-left: 0px;
+    font-size: 100px;
+    text-align: center;
+}
+.bottom{
+    border-bottom: 0px;
+}
+.side{
+    border-right: 0px;
+}
+button{
+    margin-top:10px;
+    margin-left:30%;
+    width: 100px;
+    height: 40px;
+    border-radius: 0 10px 0 10px;
+    border: 5px solid greenyellow;
+    font-size: 15px;
+    background-color:chartreuse;
+}
+@media (max-width: 1060px){
+    .score{
+        position: relative ;
+        top: 50%;
+        left: 10%;
+        right: 25%;
+        margin-top:1%;
+    }
+}
